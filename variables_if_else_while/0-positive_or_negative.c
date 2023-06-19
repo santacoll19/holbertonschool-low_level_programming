@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * main - This program will assign a random number
+ * n: will be variable
+ * Return:  Always return 1
+*/
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is greater than 0\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else
+		printf("%d is less than 0\n", n);
+	return (0);
+}
