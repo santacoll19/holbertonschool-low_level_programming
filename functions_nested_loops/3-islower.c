@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower- check the code.
+ * _islower- check the code.
  * Return: Always 0.
  * @c:recive and int
  */
