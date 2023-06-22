@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *int _isalpha - check the code.
+ *_isalpha -check for alphabetic.
  * Return: Always 0.
  * @c: trying alpha
  */
