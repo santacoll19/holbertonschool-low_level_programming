@@ -3,7 +3,7 @@
 
 /**
  *_isupper- check the code.
- *
+ *@c: represent letter.
  * Return: Always 0.
  */
 int _isupper(int c)
