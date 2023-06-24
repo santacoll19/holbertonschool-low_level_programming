@@ -4,7 +4,6 @@
 /**
  * print_numbers- check the code for.
  * Return: Always 0
- * @x: variable
  */
 void print_numbers(void)
 {
