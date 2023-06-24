@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_numbers- check the code for Holberton School students.
+ * print_numbers- check the code for.
  * Return: Always 0
  * @x: variable
  */
