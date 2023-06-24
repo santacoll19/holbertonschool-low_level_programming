@@ -1,4 +1,6 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdio.h>
+
 /**
  * print_triangle - Function that prints a triangle, followed by a new line.
  * @size: the int for the paramaters of my function
