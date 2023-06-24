@@ -4,19 +4,15 @@
 /**
  * print_numbers- check the code for Holberton School students.
  * Return: Always 0
- * @c: variable
+ * @x: variable
  */
 void print_numbers(void)
 {
-	char c = '0';
-
-	while (c <= '9')
+	int x;
+	
+	for (x = 0; x <= 9; x++)
 	{
-		if (c != '2' && c != '4')
-		{
-			_putchar(c);
-		}
-	c++;
+	putchar(x + '0');
 	}
-	_putchar('\n');
+	putchar('\n');
 }
