@@ -2,25 +2,20 @@
 #include <stdio.h>
 
 /**
- * print_most_numbers - Print the numbers since 0 up to 9
- * Description: Prints the numbers excluding 2 and 4
- * Return: the numbers since 0 up to 9
+ * print_most_numbers - check the code for Holberton School students.
+ * Return: Always 0.
  */
-
 void print_most_numbers(void)
 {
-	int x = 0;
+	char c = '0';
 
-	for (; x <= 9; x++)
+	while (c <= '9')
 	{
-	if (x == 2 || x == 4)
-	{
-	continue;
+		if (c != '2' && c != '4')
+		{
+			_putchar(c);
+		}
+	c++;
 	}
-	else
-	{
-	putchar(x + '0');
-	}
-	}
-	putchar('\n');
+_putchar('\n');
 }
