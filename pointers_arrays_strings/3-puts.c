@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *_puts- check the code
  @*str: variable
-*/
+ */
 
 void _puts(char *str)
 {
