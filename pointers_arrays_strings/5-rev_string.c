@@ -11,6 +11,7 @@ void rev_string(char *s)
 	int end;
 	int beg;
 	int tmp;
+
 	while (*(s + length))
 		length++;
 
