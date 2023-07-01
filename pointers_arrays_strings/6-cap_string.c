@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * *cap_string - check code.
+ *cap_string - check code.
  *@s: string.
+ *Return: capitalied string
  */
 
 char *cap_string(char *s)
