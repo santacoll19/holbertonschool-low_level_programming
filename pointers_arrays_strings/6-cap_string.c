@@ -12,22 +12,22 @@ char *cap_string(char *s)
 	char j[13] = {' ', '\t', '\n', ',', ';', '.',
 '!', '?', '"', '(', ')', '{', '}'};
 
-	for (i = 0 ; str[i] != '\0'; i++)
+	for (i = 0 ; s[i] != '\0'; i++)
 	{
-		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
+		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
 		{
-			str[i] -= 32;
+			s[i] -= 32;
 		}
 		for (n = 0; n < 13; n++)
 		{
-			if (str[i] == j[n])
+			if (s[i] == j[n])
 			{
-				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 				{
-					str[i + 1] -= 32;
+					s[i + 1] -= 32;
 				}
 			}
 		}
 	}
-		return (str);
+		return (s);
 }
