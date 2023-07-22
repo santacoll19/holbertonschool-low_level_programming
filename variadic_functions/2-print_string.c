@@ -1,6 +1,6 @@
 #include "variadic_function.h"
 
-/*
+/**
  *print_string- gets input
  *@separator: stores char entry
  *@n: stores unsigned int entry
@@ -29,4 +29,4 @@ void print_string(const char *separator, const unsigned int n, ...)
 		}
 		printf("\n");
 		va_end(word);
-}
+	}
