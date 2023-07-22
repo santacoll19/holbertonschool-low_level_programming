@@ -1,14 +1,14 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 
-/*
- *print_string- gets input
+/**
+ *print_strings- gets input
  *@separator: stores char entry
  *@n: stores unsigned int entry
  */
 
-void print_string(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
-	char a;
+	char *a;
 	unsigned int i;
 	va_list word;
 
@@ -16,7 +16,7 @@ void print_string(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		a = va_arg(word, char);
+		a = va_arg(word, char*);
 
 		if (a == NULL)
 		{
@@ -27,6 +27,7 @@ void print_string(const char *separator, const unsigned int n, ...)
 		{
 			printf("%s", separator);
 		}
+	}
 		printf("\n");
 		va_end(word);
 }
