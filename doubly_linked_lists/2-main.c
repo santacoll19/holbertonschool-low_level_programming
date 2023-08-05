@@ -20,7 +20,7 @@ int main(void)
     add_dnodeint(&head, 4);
     add_dnodeint(&head, 98);
     add_dnodeint(&head, 402);
-    add_dnodeint(&head, 1024);
+    add_dnodeint(&head, 1024);4-free_dlistint.c
     print_dlistint(head);
     return (EXIT_SUCCESS);
 }
